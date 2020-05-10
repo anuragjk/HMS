@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/static/css/mystyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style>
+body {
+  font-family: "Montserrat";
+  font-size: 22px;
+}
+</style>
+</head>
+<body style="background-color:#000000;">
+
+<div class="main_0">
+
+  <div class="headder0">
+	<p>HMS</p>
+  </div>
+
+  <div class="nav0">
+     <ul>
+      <li class="main-btn"><a href="/">Home</a></li>
+      <li class="main-btn"><a href="/tag/malayalam">Malayalam</a></li>
+      <li class="main-btn"><a href="/tag/english">English</a></li>
+      <li class="main-btn"><a href="/tag/hindi">Hindi</a></li>
+	<li class="main-btn"><a href="/browser">Browser</a></li>
+    </ul> 
+  </div>
+
+
+
+  <div class="content0">
+  
+   {% for value in myList %}
+    <div class="gallery">
+      <a href={{value['link']}}>
+        <img src={{value['ico']}} alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">{{value['name']}}</div>
+    </div>
+    {% endfor %}
+
+    
+   
+    
+  </div>
+
+
+
+  <div class="footer0">
+  <p>All rights reserved</p>
+  </div>
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,102 @@
+.main_0 { 
+  display: block;
+  color:white;
+  background-color: black;
+  padding: 14px 16px;
+  height: 100%;
+}
+.headder0 { 
+  color:white;
+  background-color: black;
+  padding: 16px;
+  
+}
+
+
+.nav0 { 
+  display: block;
+  color:white;
+  background-color: black;
+  padding: 14px 16px;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.main-btn{
+ float: left;
+}
+.main-btn a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.main-btn a:hover {
+  background-color: #111;
+}
+
+
+.content0 { 
+  overflow: hidden;
+  display: block;
+  color: blue;
+  background-color: black;
+  margin: 0;
+  padding: 16px 16px 16px 16px;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  background-color: #333;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.viewer0{
+	color: #7F7F7F;
+}
+
+.footer0{
+	color: #7F7F7F;
+	text-align: center;
+	font-size: 11px;
+	float: bottom;
+}
+#player{
+	width: 100%;
+        height: 100%;
+}
+
+.title0{
+	color: #FFF;
+	font-size: 30px;
+}
+
+.descreption0{
+	color: #FFF;
+}
